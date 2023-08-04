@@ -11,7 +11,6 @@ public class MathFunc {
         int y = 1 / x;
         return y;
     }
-//11
 
     public static void main(String[] args) {
         int result1 = MathFunc.func1(3);
