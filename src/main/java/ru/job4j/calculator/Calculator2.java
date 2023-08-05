@@ -8,9 +8,6 @@ public class Calculator2 {
         int four = 4;
         int five = 5;
         int onePlusTwo = one + two;
-        /*
-        Хотя возможно лучше использовать в делении double?
-        */
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
