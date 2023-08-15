@@ -18,7 +18,7 @@ class PointTest {
     }
 
     @Test
-    void when18to64Then64() {
+    void when18to64Then6dot4() {
         double expected = 6.4;
         int x1 = 1;
         int y1 = 8;
@@ -29,7 +29,7 @@ class PointTest {
     }
 
     @Test
-    void whenMin22to55Then761() {
+    void whenMin22to55Then7dot61() {
         double expected = 7.61;
         int x1 = -2;
         int y1 = 2;
