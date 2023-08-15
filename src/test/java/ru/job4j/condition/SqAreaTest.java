@@ -16,7 +16,7 @@ class SqAreaTest {
     }
 
     @Test
-    void whenP1K2ThenS005() {
+    void whenP1K2ThenS0dot05() {
         double expected = 0.05;
         int p = 1;
         int k = 2;
@@ -25,7 +25,7 @@ class SqAreaTest {
     }
 
     @Test
-    void whenP10K5ThenS347() {
+    void whenP10K5ThenS3dot47() {
         double expected = 3.47;
         int p = 10;
         int k = 5;
