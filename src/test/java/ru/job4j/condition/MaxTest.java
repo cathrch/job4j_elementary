@@ -10,7 +10,7 @@ class MaxTest {
     void when1To2Then2() {
         int left = 1;
         int right = 2;
-        int result = Max.max(1, 2);
+        int result = Max.max(left, right);
         int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
@@ -19,7 +19,7 @@ class MaxTest {
     void when4To2Then4() {
         int left = 4;
         int right = 2;
-        int result = Max.max(4, 2);
+        int result = Max.max(left, right);
         int expected = 4;
         assertThat(result).isEqualTo(expected);
     }
@@ -28,7 +28,7 @@ class MaxTest {
     void when6To6Then6() {
         int left = 6;
         int right = 6;
-        int result = Max.max(6, 6);
+        int result = Max.max(left, right);
         int expected = 6;
         assertThat(result).isEqualTo(expected);
     }
