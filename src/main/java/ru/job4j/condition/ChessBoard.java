@@ -7,11 +7,9 @@ public class ChessBoard {
 
     public static int way(int x1, int y1, int x2, int y2) {
         int rsl = 0;
-        int rslX = Math.abs(x1 - x2);
-        int rslY =  Math.abs(y1 - y2);
         if (rangeNum(x1) && rangeNum(y1) && rangeNum(x2) && rangeNum(y2)) {
-            if (rslX == rslY) {
-                rsl = rslX;
+            if (Math.abs(x1 - x2) == Math.abs(y1 - y2)) {
+                rsl = x1 - x2;
             }
         }
         return rsl;
