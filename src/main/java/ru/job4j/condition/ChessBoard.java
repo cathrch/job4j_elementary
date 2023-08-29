@@ -9,7 +9,7 @@ public class ChessBoard {
         int rsl = 0;
         if (rangeNum(x1) && rangeNum(y1) && rangeNum(x2) && rangeNum(y2)) {
             if (Math.abs(x1 - x2) == Math.abs(y1 - y2)) {
-                rsl = x1 - x2;
+                rsl = Math.abs(x1 - x2);
             }
         }
         return rsl;
