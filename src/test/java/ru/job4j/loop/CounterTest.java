@@ -23,4 +23,13 @@ class CounterTest {
         int expected = 18;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void whenSumEvenNumbersFromOneToOneThenThirty() {
+        int start = 1;
+        int finish = 1;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 0;
+        assertThat(result).isEqualTo(expected);
+    }
 }
