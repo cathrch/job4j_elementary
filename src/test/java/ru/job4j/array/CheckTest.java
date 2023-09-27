@@ -24,13 +24,13 @@ class CheckTest {
     void whenDataNotMonoByTrueThenFalse() {
         boolean[] data = {true, false, true};
         boolean result = Check.mono(data);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 
     @Test
     void whenDataNotMonoByFalseThenFalse() {
         boolean[] data = {false, true, false};
         boolean result = Check.mono(data);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 }
